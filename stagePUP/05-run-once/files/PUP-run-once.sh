@@ -35,4 +35,7 @@ systemctl enable teleport.service
 
 systemctl disable PUP-run-once
 
+rm /lib/systemd/system/PUP-run-once.service
+rm /usr/bin/PUP-run-once.sh
+
 reboot
