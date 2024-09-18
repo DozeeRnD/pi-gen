@@ -1,0 +1,9 @@
+#!/bin/bash
+
+WIFI_SSID="sample-ssid"
+WIFI_PASSWORD="sample-password"
+
+#WIFI2_SSID="sample-ssid"
+#WIFI2_PASSWORD="sample-password"
+
+TELEPORT_TOKEN="sample-teleport-token"

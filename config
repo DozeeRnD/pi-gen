@@ -1,4 +1,4 @@
-IMG_NAME=PUP
+IMG_NAME=raspbian-lite-PUP
 PI_GEN_RELEASE=PUP-1.0
 RELEASE=bookworm
 
@@ -22,6 +22,9 @@ TIMEZONE_DEFAULT=Asia/Kolkata
 
 PRESERVE_CONTAINER=1
 
+# Use this block to build from scratch
 STAGE_LIST="stage0 stage1 stage2 stagePUP"
+
+# Use this block to build only the PUP stage
 #STAGE_LIST="stagePUP"
 #CONTINUE=1
