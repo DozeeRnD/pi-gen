@@ -1,0 +1,10 @@
+[Unit]
+Description=Run once after network is up
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /usr/bin/PUP-run-once.sh
+
+[Install]
+WantedBy=multi-user.target
